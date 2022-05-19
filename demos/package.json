@@ -1,0 +1,14 @@
+{
+  "name": "demos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Hugo Mendez <hello@hugomendez.dev>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "jest": "^28.1.0"
+  }
+}
