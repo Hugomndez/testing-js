@@ -20,9 +20,9 @@ jobs:
       - name: Setup Nodejs
         uses: actions/setup-node@v2
         with:
-          node-version: 14
+          node-version: 18
           cache: 'npm'
-          cache-dependency-path: ./API/package-lock.json
+          cache-dependency-path: '**/package-lock.json'
       - name: install
         shell: bash
         run: npm ci
